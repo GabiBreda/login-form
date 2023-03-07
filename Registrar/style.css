@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('./fundo2.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box-container{
+    position: relative;
+    width: 400px;
+    height: 650px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    margin-top: 150px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: transparent;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+p{
+    font-size: 1.3em;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -10px;
+}
+.input-box input{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+.input-box ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+button{
+    height: 40px;
+    width: 80%;
+    border-radius: 40px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+.login{
+    font-size: .7em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: 50px;
+}
+.login a{
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.primeiro-nome{
+    margin-left: 53px;
+}
+.ultimo-nome{
+    margin-left: 45px;
+}
+.E-mail{
+    margin-left: 22px;
+}
+.confirme-seu-email{
+    margin-left: 73px;
+}
+.senha{
+    margin-left: 23px;
+}
+.confirmar-senha{
+    margin-left: 72px;
+}
